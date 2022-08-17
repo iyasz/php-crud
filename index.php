@@ -20,9 +20,9 @@
                     <div class="card-header text-bg-dark ps-4">
                         <h1>Input Data</h1>
                     </div>
-                    <form action="" method="post">
-                        <div class="card-body">
-                            <div class="col-md-6">
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <div class="col-lg-6">
                                 <div class="form-group my-3">
                                     <label for="username">Username</label>
                                     <input type="text" id="username" placeholder="Masukan Username " class="form-control">
@@ -40,13 +40,53 @@
                                     <input type="text" id="alamat" placeholder="Masukan Alamat " class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="form-group">
-                                <label for="">asw</label>
+                                    <label for="alamat">Test</label>
+                                    <input type="text" id="alamat" placeholder="Masukan Alamat " class="form-control">
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-center mb-0">&copy;Login Page - All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="card shadow">
+                <div class="card-header ps-3">
+                    <h3>Tabel Data</h3>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Username</th>
+                                <th>Kontak</th>
+                                <th>No. Telp</th>
+                                <th>Alamat</th>
+                                <th>NIK</th>
+                                <th class="text-center">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Elaina</td>
+                                <td>Avellia</td>
+                                <td>0893583</td>
+                                <td>Kahuripan</td>
+                                <td>12541521</td>
+                                <td class="text-center ">
+                                    <a href="" class="btn btn-primary btn-sm">Edit</a>
+                                    <a href="" class="btn btn-danger btn-sm ">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
