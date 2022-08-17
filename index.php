@@ -1,4 +1,12 @@
-<?php  ?>
+<?php  
+
+$conn = mysqli_connect('localhost', 'root', '', 'db_logintest');
+
+if(isset($_POST['btn-sbt'])){
+    $username = htmlspecialchars($_POST['username']);
+}
+
+?>
 
 
 <!DOCTYPE html>
@@ -22,36 +30,42 @@
                     </div>
                     <div class="card-body">
                         <form action="" method="post">
-                            <div class="col-lg-6">
-                                <div class="form-group my-3">
-                                    <label for="username">Username</label>
-                                    <input type="text" id="username" placeholder="Masukan Username " class="form-control">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group my-3">
+                                        <label for="username">Username</label>
+                                        <input type="text" id="username" name="username" autocomplete="off" placeholder="Masukan Username " class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="kontak">Kontak</label>
+                                        <input type="text" id="kontak" name="kontak" placeholder="Masukan Nama Kontak" class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="telp">No. Telp</label>
+                                        <input type="number" id="telp" name="telp" placeholder="Masukan No. Telp " class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="alamat">Alamat</label>
+                                        <input type="text" id="alamat" name="alamat" placeholder="Masukan Alamat " class="form-control">
+                                    </div>
                                 </div>
-                                <div class="form-group mb-3">
-                                    <label for="kontak">Kontak</label>
-                                    <input type="text" id="kontak" placeholder="Masukan Nama Kontak" class="form-control">
-                                </div>
-                                <div class="form-group mb-3">
-                                    <label for="telp">No. Telp</label>
-                                    <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
-                                </div>
-                                <div class="form-group mb-3">
-                                    <label for="alamat">Alamat</label>
-                                    <input type="text" id="alamat" placeholder="Masukan Alamat " class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group mb-3">
-                                    <label for="email">Email</label>
-                                    <input type="text" id="email" placeholder="Masukan Email " class="form-control">
-                                </div>
-                                <div class="form-group mb-3">
-                                    <label for="telp">No. Telp</label>
-                                    <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
-                                </div>
-                                <div class="form-group mb-3">
-                                    <label for="telp">No. Telp</label>
-                                    <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                <div class="col-lg-6">
+                                    <div class=" my-3">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email" name="email" placeholder="Masukan Email " class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="telp">No. Telp</label>
+                                        <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="telp">No. Telp</label>
+                                        <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                    </div>
+                                    <div class="form-group text=end">
+                                        <button class="btn btn-primary " type="submit" name="btn-sbt">Submit</button>
+                                        <button class="btn btn-danger " type="reset">Reset</button>
+                                    </div>
                                 </div>
                             </div>
                         </form>
