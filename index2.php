@@ -71,6 +71,37 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-11">
+                <div class="card shadow-lg">
+                    <div class="card-header text-bg-dark">
+                        <h3>test</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>tes</th>
+                                    <th>adnji</th>
+                                    <th>tes</th>
+                                    <th>ngih</th>
+                                    <th>akuJdadad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>awfawfawf</td>
+                                    <td>wafaw</td>
+                                    <td>awgwag</td>
+                                    <td>awfaf</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
