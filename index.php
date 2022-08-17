@@ -3,7 +3,9 @@
 $conn = mysqli_connect('localhost', 'root', '', 'db_logintest');
 
 if(isset($_POST['btn-sbt'])){
-    $username = htmlspecialchars($_POST['username']);
+    $username = htmlspecialchars(isset($_POST['username']));
+    $kontak = htmlspecialchars(isset($_POST['kontak']));
+
 }
 
 ?>
@@ -55,12 +57,12 @@ if(isset($_POST['btn-sbt'])){
                                         <input type="text" id="email" name="email" placeholder="Masukan Email " class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
-                                        <label for="telp">No. Telp</label>
-                                        <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                        <label for="pekerjaan">Pekerjaan</label>
+                                        <input type="text" id="pekerjaan" placeholder="Masukan Pekerjaan " class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
-                                        <label for="telp">No. Telp</label>
-                                        <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                        <label for="nik">NIK</label>
+                                        <input type="number" id="nik" placeholder="Masukan NIK " class="form-control">
                                     </div>
                                     <div class="form-group text=end">
                                         <button class="btn btn-primary " type="submit" name="btn-sbt">Submit</button>
