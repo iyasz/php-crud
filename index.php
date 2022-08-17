@@ -41,9 +41,17 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label for="alamat">Test</label>
-                                    <input type="text" id="alamat" placeholder="Masukan Alamat " class="form-control">
+                                <div class="form-group mb-3">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" placeholder="Masukan Email " class="form-control">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="telp">No. Telp</label>
+                                    <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="telp">No. Telp</label>
+                                    <input type="number" id="telp" placeholder="Masukan No. Telp " class="form-control">
                                 </div>
                             </div>
                         </form>
@@ -55,38 +63,40 @@
             </div>
         </div>
         <div class="row justify-content-center mt-5">
-            <div class="card shadow">
-                <div class="card-header ps-3">
-                    <h3>Tabel Data</h3>
-                </div>
-                <div class="card-body">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Username</th>
-                                <th>Kontak</th>
-                                <th>No. Telp</th>
-                                <th>Alamat</th>
-                                <th>NIK</th>
-                                <th class="text-center">Aksi</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Elaina</td>
-                                <td>Avellia</td>
-                                <td>0893583</td>
-                                <td>Kahuripan</td>
-                                <td>12541521</td>
-                                <td class="text-center ">
-                                    <a href="" class="btn btn-primary btn-sm">Edit</a>
-                                    <a href="" class="btn btn-danger btn-sm ">Delete</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="col-lg-11">
+                <div class="card">
+                    <div class="card-header text-bg-dark">
+                        <h3 class="ps-3">Data Public</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Username</th>
+                                    <th>Kontak</th>
+                                    <th>No. Telp</th>
+                                    <th>Alamat</th>
+                                    <th>Email</th>
+                                    <th class="text-center">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Elaina</td>
+                                    <td>Avellia</td>
+                                    <td>089245345</td>
+                                    <td>Kahuripan mas</td>
+                                    <td>elaina@gmail.com</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-primary btn-sm">Edit</a>
+                                        <a href="" class="btn btn-danger btn-sm">Delete</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
