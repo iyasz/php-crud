@@ -64,9 +64,9 @@ if(isset($_POST['btn-sbt'])){
                                         <label for="nik">NIK</label>
                                         <input type="number" id="nik" placeholder="Masukan NIK " class="form-control">
                                     </div>
-                                    <div class="form-group text=end">
-                                        <button class="btn btn-primary " type="submit" name="btn-sbt">Submit</button>
-                                        <button class="btn btn-danger " type="reset">Reset</button>
+                                    <div class="text-end">
+                                        <button class="btn btn-primary" type="submit" name="btn-sbt">Submit</button>
+                                        <button class="btn btn-danger" type="reset">Reset</button>
                                     </div>
                                 </div>
                             </div>
